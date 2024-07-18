@@ -2,35 +2,35 @@
 
 **Create a virtual environment:** This is a recommended practice for Python development. It allows you to isolate your project's dependencies from the system's Python packages.
 
-bash
-python3 -m venv myenv
+bash <br />
+python3 -m venv myenv <br />
 This command will create a virtual environment named myenv in the current directory.
 
 **Activate the virtual environment:**
 
-bash
-source myenv/bin/activate
-Once activated, your shell prompt will change, indicating that you're now working within the virtual environment.
-
+bash <br />
+source myenv/bin/activate <br />
+Once activated, your shell prompt will change, indicating that you're now working within the virtual environment. <br />
+<br />
 ### Install Django within the virtual environment:
-
-bash
-**pip install Django**
-This command will install Django only within the virtual environment, keeping it isolated from the system-wide packages.
+<br />
+bash <br />
+**pip install Django** <br />
+This command will install Django only within the virtual environment, keeping it isolated from the system-wide packages.<br />
 
 **Check Django installation:**
 
-bash
-django-admin --version
-This should display the installed Django version.
+bash <br />
+django-admin --version <br />
+This should display the installed Django version. <br />
 
-Deactivate the virtual environment:
-
-bash
-deactivate
-
+Deactivate the virtual environment: <br />
+<br />
+bash <br />
+deactivate <br />
+<br />
 ### Django Start Projecet:
 **django-admin startproject "project name"**
-
-**Start Server:**
-python3 manage.py runserver
+<br />
+**Start Server:** <br />
+python3 manage.py runserver <br />
