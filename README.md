@@ -13,18 +13,17 @@ source myenv/bin/activate <br />
 Once activated, your shell prompt will change, indicating that you're now working within the virtual environment. <br />
 <br />
 ### Install Django within the virtual environment:
-<br />
+
 bash <br />
 **pip install Django** <br />
 This command will install Django only within the virtual environment, keeping it isolated from the system-wide packages.<br />
 
 **Check Django installation:**
-
 bash <br />
 django-admin --version <br />
 This should display the installed Django version. <br />
 
-Deactivate the virtual environment: <br />
+Deactivate the virtual environment: 
 <br />
 bash <br />
 deactivate <br />
